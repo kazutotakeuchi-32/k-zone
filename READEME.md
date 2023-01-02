@@ -20,24 +20,27 @@ LINEBOTで好きな配信を選択して、配信を受けることができま�
 - FW: Laravel 5.8/Next.js
 - DB: MySQL 5.7
 - DEV: Docker/Docker-compose/VSCode
-- CI: CircleCI
-- CD: AWS
+- CI/CD: Git hub Actions
 
 ### k-step(LINE BOT)
-- FW: Ruby on Rails 5.2 || Flask
+- FW: Ruby on Rails 6.0 || Flask
 - DB: MySQL 5.7
-- CI: CircleCI
-- CD: AWS
+- DEV: Docker/Docker-compose/VSCode
+- CI/CD: Git hub Actions
+- バッチ: AWS Lambda(python3.8)
 
 ## その他
 - ドメイン: AWS Route53
-- ホスティング: AWS S3
-- サーバー: AWS EC2
+- 画像: AWS S3
+- サーバー:
+  - EC2 ✖︎ 3(nginx + php-fpm, Next.js) 
+  - ECS(LINE用 APIサーバー) ✖︎ １ 
 - データベース: AWS RDS
 - キャッシュ: AWS ElastiCache
 - メール: AWS SES
 - ログ: AWS CloudWatch
-
+- cron: AWS CloudWatch Events
+- バッチ（配信）： AWS Lambda
 
 
 
