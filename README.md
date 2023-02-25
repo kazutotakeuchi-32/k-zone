@@ -17,23 +17,23 @@ LINEBOTで好きな配信を選択して、配信を受けることができま�
 
 ## Requirement
 ### klab・kazugramming
-- FW: Laravel 5.8/Next.js
+- FW: Ruby on Rails 6.0/Next.js
 - DB: MySQL 5.7
 - DEV: Docker/Docker-compose/VSCode
-- CI/CD: Git hub Actions
+- CI/CD: Git hub Actions/Code3兄弟
 
 ### k-step(LINE BOT)
 - FW: Ruby on Rails 6.0 || Flask
 - DB: MySQL 5.7
 - DEV: Docker/Docker-compose/VSCode
-- CI/CD: Git hub Actions
+- CI/CD: Git hub Actions/Code3兄弟
 - バッチ: AWS Lambda(python3.8)
 
 ## その他
 - ドメイン: AWS Route53
 - 画像: AWS S3
 - サーバー:
-  - EC2 ✖︎ 3(nginx + php-fpm, Next.js) 
+  - EC2 ✖︎ 3(nginx + API, Next.js) 
   - ECS(LINE用 APIサーバー) ✖︎ １ 
 - データベース: AWS RDS
 - キャッシュ: AWS ElastiCache
@@ -41,7 +41,3 @@ LINEBOTで好きな配信を選択して、配信を受けることができま�
 - ログ: AWS CloudWatch
 - cron: AWS CloudWatch Events
 - バッチ（配信）： AWS Lambda
-
-
-
-
